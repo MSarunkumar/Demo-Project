@@ -1,0 +1,124 @@
+header,footer{
+	  margin-left:200px;
+}
+.LContainer{
+	margin-left:230px;
+	width:170px;
+	float:left;
+	color:black;
+	font-size:18px
+}
+.btn{
+	margin-left:400px;
+	width:220px;
+	height:35px;
+	border-radius: 5px;
+	padding: 2px;
+    border: none;
+    color: white;
+	background-color: #2179ed;
+	font-size:24px;
+	cursor: pointer;
+}
+.btn:hover{
+        background-color: #034fb2;
+}
+
+h1 {
+	color: blue;
+	
+}
+
+.star:after{
+	content:"*";
+	color:red;
+}
+.input_box{
+	border-radius: 5px;
+	border:1px solid black;
+	width:220px; 
+	height:35px; 
+	padding:5px;
+}
+.star{
+    font-style: italic;
+	font-size:18px;
+	color:red;
+}
+/*#form{
+	background-color:lightgreen;
+	margin-left:100px;
+	margin-right:100px;
+	border-radius: 10px;
+}*/
+body{
+	 background-color:#418cf4;
+	 font-family: 'Ubuntu', sans-serif;
+}
+p{
+color:red;
+margin-left:950px;}
+
+.err{
+	color:red;
+	margin-left:405px;
+	font-size:13px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+     border-radius:10px;
+     margin-left:200px;
+     width:865px;
+    }
+     
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 5px 77px;
+    text-decoration: none;
+    font-size:20px;
+ }
+
+li a:hover {
+     color: black;
+}
+#bodyid{
+	 
+	margin-left:200px;
+	width:900px;
+	height:650;
+	background-color:white;
+	border-radius:10px;
+}
+#nextBtn{
+	border-radius:10px;
+	width:120px;
+	height:30px;
+	color:white;
+	background-color:#418cf4;
+	border:none;
+	font-size:22px;
+	cursor:pointer;
+}
+#submitBtn
+{
+    border-radius:10px;
+	width:150px;
+	height:30px;
+	color:white;
+	margin-left:200px;
+	
+	background-color : #418cf4;
+	border:none;
+	font-size:22px;
+	cursor:pointer;
+}
+
