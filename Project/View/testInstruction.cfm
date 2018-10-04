@@ -29,25 +29,6 @@
       }
   </script> --->
 
-
-
-<!--- <ol Style="float:right; margin-left:40px"><br>
-<img height="100px" width="100px" src="../assets/image/instructions.jpg"
-   style="margin-right:200px margin-top:100px">
-<h2>Instructions:</h2>
-<li>
-Once You start the test, you can not pause/resume.
-</li>
-<br><br><br>
-<li>
-You can not go to previous questions,So please try to attempt in one time.
-</li>
-<br><br><br>
-<li>
-	Once you  start the test. Don`t Press refresh button otherwise your score will not be submit.
-</li>
-
-</ol> --->
 <div id="ins" style="margin-left:20px">
 	<img height="100px" width="100px" src="../assets/image/instructions.jpg">
 <pre>
@@ -55,9 +36,10 @@ You can not go to previous questions,So please try to attempt in one time.
 
 1.Once You start the test, you can not pause/resume.
 
-2.You can not go to previous questions,So please try to attempt in one time.
+2.You can not go to previous questions,So please try to attempt in one go.
 
-3.Once you start the test. Don`t Press refresh button otherwise your score will not be submit.
+3.Once you start the test. Don`t Press refresh button otherwise your score will not be acceptted.
+  and you have to login again for taking the test.
 
 
 </div>
@@ -73,7 +55,4 @@ You can not go to previous questions,So please try to attempt in one time.
 
 
 </h3> </div>
-
-<footer>
-</footer>
 </body> </html>

@@ -12,14 +12,11 @@
 	    <title>
 			Student Details
 		</title>
-	 <script type="text/javascript">
-                     $(document).ready(function () {
-                         $('#tableId').dataTable();
-                   });
-
-
-
-               </script>
+	                       <script type="text/javascript">
+                               $(document).ready(function () {
+                                       $('#tableId').dataTable();
+                                  });
+                           </script>
 
 	</head>
 	<body>
@@ -70,7 +67,7 @@
 					</cfif>
 				</div> ---><br><br><br>
 				<cfset student = application.viewDetailsObj.getStudents()>
-               <table id="tableId" class="cell-border order-column compact stripe hover">
+               <table id="tableId" class="cell-border order-column  stripe hover">
                    <thead>
 					<tr>
 					<th>Name</th><th>Email</th><th>Dob</th><th>Mobile</th>

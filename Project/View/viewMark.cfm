@@ -50,7 +50,7 @@
 		<div id="bodyid">
 			<br>
 			<cfset mark = application.viewDetailsObj.getMark()>
-			<table id="tableId" class="cell-border order-column compact stripe hover">
+			<table id="tableId" class="cell-border order-column  stripe hover">
 				<thead>
 					<tr>
 						<th>
@@ -64,6 +64,9 @@
 						</th>
 						<th>
 							Score
+						</th>
+						<th>
+						   Total Questions
 						</th>
 					</tr>
 				</thead>
@@ -82,6 +85,10 @@
 							<td>
 								#score#
 							</td>
+							<td>
+								#totalQuestion#
+							</td>
+
 						</tr>
 					</cfoutput>
 				</tbody>

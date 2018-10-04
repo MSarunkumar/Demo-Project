@@ -14,7 +14,7 @@
               var email = document.getElementById("uid")
                   .value;
 
-              var regemail = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
+              var regemail = /^([a-zA-Z0-9_.-])+([@]{1})(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
               if((email.trim()) == "" ){
             	  e_Valid = ShowError("eid", " Please Enter Your Email  ");
               }

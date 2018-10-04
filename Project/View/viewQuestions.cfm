@@ -56,7 +56,7 @@
 
              <br><br>
              <cfset question = application.viewDetailsObj.getQuestions()>
-               <table id="tableId" class="cell-border order-column compact stripe hover">
+               <table id="tableId" class="cell-border order-column  stripe hover">
 					<thead>
 					<tr>
 					<th>Question </th><th>Option1</th><th>Option2</th><th>Option3</th>

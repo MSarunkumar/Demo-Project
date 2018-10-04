@@ -14,6 +14,7 @@
 <cfif NOT isDefined("FORM.startTestBtn")>
 <cflocation addtoken="no" url="studentDashboard.cfm" />
 </cfif>
+<cftry>
 <cfif  SESSION.studentValid >
 	<cflocation addtoken="no" url="studentDashboard.cfm" />
 <cfelse>
@@ -24,7 +25,6 @@
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../assets/css/countdownTimer.css" />
 	    <link rel="stylesheet" href="../assets/css/signup.css">
 	    <title>
 			Online Test
@@ -40,13 +40,12 @@
         });
 
 
-    $(function () {
+   /* $(function () {
         $(document).keydown(function (e) {
             return (e.which || e.keyCode) != 116;
         });
-    });
-       /* function disableF5(e) {
-        if ((e.which || e.keyCode) == 116) e.preventDefault(); };*/
+    });*/
+
      </script>
 
 	</head>
@@ -85,4 +84,11 @@
 	</body>
 </html>
 </cfif>
+<cfcatch type = "any">
+ <cfset SESSION.studentValid = FALSE />
+<!--- <cfdump var = "#session#" abort = "true"> --->
+ <cflog file = "onlineExamErrorLog" text = "#cfcatch.message# #cfcatch.detail#..#now()#..Student [#SESSION.studentEmail#] try to Refresh" />
+<cfoutput><h1>Refresh again</h1></cfoutput>
+</cfcatch>
+</cftry>
 

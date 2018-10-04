@@ -21,8 +21,8 @@
 		WHERE  email = <cfqueryparam cfsqltype = "cf_sql_varchar" value = "#arguments.email#">
 	</cfquery>
 		<cfreturn #fetchPassword.password# />
-		<cfcatch type="database">
-		<cflog file="onlineExamErrorLog" text="#cfcatch.message# #cfcatch.detail#..fun[getPassword]login">
+		<cfcatch type = "database">
+		<cflog file = "onlineExamErrorLog" text = "#cfcatch.message# #cfcatch.detail#..fun[getPassword]login">
 		</cfcatch>
 		</cftry>
 	</cffunction>
@@ -38,8 +38,8 @@
 		WHERE  email = <cfqueryparam cfsqltype = "cf_sql_varchar" value = "#arguments.email#">
         </cfquery>
 		<cfreturn #checkemail.RecordCount#>
-		<cfcatch type="database">
-		<cflog file="onlineExamErrorLog" text="#cfcatch.message# #cfcatch.detail#..fun[emailExist]login">
+		<cfcatch type = "database">
+		<cflog file = "onlineExamErrorLog" text = "#cfcatch.message# #cfcatch.detail#..fun[emailExist]login">
 		</cfcatch>
 		</cftry>
      </cffunction >
@@ -55,8 +55,8 @@
 		WHERE  email = <cfqueryparam cfsqltype = "cf_sql_varchar" value = "#arguments.email#">
 	</cfquery>
 		<cfreturn #fetchSalt.salt# />
-		<cfcatch type="database">
-		<cflog file="onlineExamErrorLog" text="#cfcatch.message# #cfcatch.detail#..fun[getSalt]]login">
+		<cfcatch type = "database">
+		<cflog file = "onlineExamErrorLog" text = "#cfcatch.message# #cfcatch.detail#..fun[getSalt]]login">
 		</cfcatch>
 		</cftry>
 	</cffunction>

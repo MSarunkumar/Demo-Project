@@ -7,8 +7,8 @@
 	--- author: mindfire
 	--- date:   9/24/18
 	--->
-<cfcomponent hint="This is logout cfc." accessors="true" output="false" >
-   <cffunction name="logout" returntype="void" access="public">
+<cfcomponent hint = "This is logout cfc." accessors = "true" output = "false" >
+   <cffunction name = "logout" returntype="void" access = "public">
 
         <cfset structClear(session) />
     </cffunction>

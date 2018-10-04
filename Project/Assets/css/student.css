@@ -20,9 +20,9 @@ margin-left:950px;}
 }
 
 ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color:white;
+     list-style-type: none;
+     overflow: hidden;
+     background-color:white;
      border-radius:10px;
      margin-left:200px;
      width:865px;
@@ -67,4 +67,22 @@ li a:hover {
 	background-color : #0659f1;
 	
 }
+
+/* DataTable Edit start*/
+#tableId_wrapper{
+	border:2px solid #adf442;
+    }
+input[type="search"],select{
+	border-radius:5px;
+	border:2px solid #adf442;
+	padding:3px;
+	}
+	input[type="search"]:focus, select:focus{
+	border-radius:5px;
+	border:2px solid #417cf4;
+	padding:5px;
+	}
+/* DataTable Edit END */
+
+
 

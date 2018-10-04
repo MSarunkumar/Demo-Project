@@ -54,9 +54,7 @@
            </cfform>
           </div>
         <br> <br>
-    	<footer>
-	    <!--- <img src="/assets/image/footer.JPG" alt="Online Examination Portal " width="900px" > --->
-        </footer>
+
 		</h3>
 		<script type="text/javascript" src="../assets/js/forgotPassword.js"> </script>
 	</body>

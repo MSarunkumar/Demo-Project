@@ -52,6 +52,7 @@
 							<cfoutput> #errorArray[2]# </cfoutput>
 						<cfelse>
 					    <cfoutput> #errorArray[3]# </cfoutput>
+					    </cfif>
 						</cfif>
 				</div>
 				<cfform action="../Controller/signupAction.cfm" onsubmit="return formValidation()" method="POST" id='form' >

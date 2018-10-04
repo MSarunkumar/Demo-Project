@@ -56,10 +56,11 @@
 
              <br><br>
              <cfset marks = application.viewDetailsObj.getMarks()>
-               <table id="tableId" class="cell-border order-column compact stripe hover">
+               <table id="tableId" class="cell-border order-column  stripe hover">
 					<thead>
 					<tr>
-					<th> Student Email </th><th>  Start Time</th><th>End Time</th><th>Score</th>
+					<th> Student Email </th><th>  Start Time</th><th>End Time</th>
+					<th>Score</th><th>Total Questions</th>
 					 </tr>
 					 </thead>
 					 <tbody>
@@ -70,21 +71,14 @@
 					 <td>#startDate#</td>
 					 <td>#endDate#</td>
 					 <td>#score#</td>
+                     <td>#totalQuestion#</td>
 
 					 </tr>
 					 </cfoutput>
 					 </tbody>
 
 				</table>
-
-
-
 		</h4>
 		</div>
-		<footer>
-		</footer>
-
-
-
 	</body>
 </html>
